@@ -27,9 +27,9 @@ namespace ListasDeCompras
         }
         private void ShouldHaveValidName(string name)
         {
-            if (name.Length < 2 || name.Length > 20)
+            if (name.Length < 2 || name.Length > 30)
             {
-                throw new Exception("The name must have between 2 and 20 characters.");
+                throw new Exception("The name must have between 2 and 30 characters.");
             }
         }
 
@@ -51,7 +51,7 @@ namespace ListasDeCompras
 
         private void ShouldHaveValidCategory(string category)
         {
-            if (!Enum.IsDefined(typeof(Category), category))
+            if (!Enum.IsDefined(typeof(Categories), category))
             {
                 throw new Exception("The category is not defined as such.");
             }

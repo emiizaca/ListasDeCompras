@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ListasDeCompras
 {
-    public enum Category
+    public enum Categories
     {
         almacen,
         bebidas,

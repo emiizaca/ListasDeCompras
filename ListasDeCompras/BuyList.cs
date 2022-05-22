@@ -8,66 +8,31 @@ namespace ListasDeCompras
 {
     public class BuyList
     {
-        private string name;
-        private string classification;
-        private DateTime dateOfBuy;
+        private Name name;
+        private Classification classification;
+        private BuyDateOfOneWeek buyDate;
 
-        public BuyList(string name, string classification, DateTime dateOfBuy)
+        public BuyList(string name, string classification, DateTime buyDate)
         {
-            this.ShouldHaveValidName(name);
-            this.ShouldHaveValidClassification(classification);
-            this.ShouldBeAWeekFromNow(dateOfBuy);
-
-            this.name = name;
-            this.classification = classification;
-            this.dateOfBuy = dateOfBuy;
+            this.name = new Name(name);
+            this.classification = new Classification(classification);
+            this.buyDate = new BuyDateOfOneWeek(buyDate);
         }
-
-        private void ShouldHaveValidName(string name)
+        public string Name()
         {
-            if (name.Length < 5 || name.Length > 30)
-            {
-                throw new Exception("The name must have between 3 and 30 characters.");
-            }
+            return this.name.Value();
         }
-
-        private void ShouldHaveValidClassification(string classification)
+        public string Classification()
         {
-            if (!Enum.IsDefined(typeof(Classification), classification))
-            {
-                throw new Exception("The classification is not defined as such.");
-            }
+            return this.classification.Value();
         }
-
-        private void ShouldBeAWeekFromNow(DateTime dateOfBuy)
+        public DateTime BuyDate()
         {
-            DateTime today = DateTime.Today;
-            DateTime week = today.AddDays(7);
-            if(!(dateOfBuy >= today && dateOfBuy <= week))
-            {
-                throw new Exception("The date should be a week from now.");
-            }
+            return this.buyDate.Value();
         }
-
-        public string getName()
-        {
-            return this.name;
-        }
-
-        public string getClassification()
-        {
-            return this.classification;
-        }
-
-        public DateTime getDateOfBuy()
-        {
-            return this.dateOfBuy;
-        }
-
         public string DataList()
         {
-            return $"List name: {this.getName()}\nThe classification is: {this.getClassification()}\nThe buy day is: {this.getDateOfBuy()}";
+            return $"List name: {this.Name()}\nThe classification is: {this.Classification()}\nThe buy day is: {this.BuyDate()}";
         }
     }
-
 }

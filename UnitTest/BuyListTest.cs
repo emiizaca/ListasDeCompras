@@ -17,7 +17,7 @@ namespace UnitTest
                 );
 
             //Act
-            string classification = bl.getClassification();
+            string classification = bl.Classification();
 
             //Assert
             Assert.Equal("car", classification);

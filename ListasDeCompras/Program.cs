@@ -12,7 +12,7 @@ namespace ListasDeCompras
             BuyList bl = new BuyList(
                 "Compra de mañana",
                 "car",
-                DateTime.Parse("2022-5-19")
+                DateTime.Parse("2022-5-23")
             );
 
             buyList.Add(bl);

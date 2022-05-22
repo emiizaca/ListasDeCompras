@@ -6,14 +6,24 @@ using System.Threading.Tasks;
 
 namespace ListasDeCompras
 {
-    public enum Classification
+    public class Classification
     {
-        kitchen,
-        bathroom,
-        living,
-        bedroom,
-        car,
-        office,
-        general
+        private string value;
+        public Classification(string classification)
+        {
+            this.ShouldHaveValidClassification(classification);
+            this.value = classification;
+        }
+        private void ShouldHaveValidClassification(string classification)
+        {
+            if (!Enum.IsDefined(typeof(Classifications), classification))
+            {
+                throw new Exception("The classification is not defined as such.");
+            }
+        }
+        public string Value()
+        {
+            return this.value;
+        }
     }
 }
