@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -20,7 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ListasDeCompras\ListasDeCompras.csproj" />
+    <ProjectReference Include="..\Domain\3-Domain.csproj" />
+    <ProjectReference Include="..\ListasDeCompras\1-Presentation.csproj" />
+    <ProjectReference Include="..\Transversal\9-Transversal.csproj" />
   </ItemGroup>
 
 </Project>
