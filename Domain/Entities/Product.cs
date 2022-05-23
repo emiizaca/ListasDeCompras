@@ -1,10 +1,11 @@
-﻿using System;
+﻿using ListasDeCompras.Domain.ValueObjects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ListasDeCompras
+namespace ListasDeCompras.Domain.Entities
 {
     public class Product
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ListasDeCompras
+namespace ListasDeCompras.Domain.ValueObjects
 {
     public class BuyDateOfOneWeek
     {

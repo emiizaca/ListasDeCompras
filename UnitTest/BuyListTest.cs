@@ -1,4 +1,4 @@
-using ListasDeCompras;
+using ListasDeCompras.Domain.Entities;
 using System;
 using Xunit;
 

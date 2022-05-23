@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ListasDeCompras.Domain.Entities;
+using ListasDeCompras.Domain.Repositories;
+using System;
 using System.Collections.Generic;
 
 namespace ListasDeCompras
@@ -7,34 +9,27 @@ namespace ListasDeCompras
     {
         static void Main(string[] args)
         {
-            List<BuyList> buyList = new List<BuyList>();
+            BuyListRepository repository = new BuyListInMemoryRepository();
 
-            BuyList bl = new BuyList(
+            BuyList buyList = BuyList.CreateNewBuyList(
                 "Compra de mañana",
                 "car",
-                DateTime.Parse("2022-5-23")
+                DateTime.Parse("2022-5-24"),
+                repository
             );
+            buyList.Save();
 
-            buyList.Add(bl);
+            BuyList buyList2 = BuyList.CreateNewBuyList(
+                "Compra del finde",
+                "general",
+                DateTime.Parse("2022-5-25"),
+                repository
+            );
+            buyList2.Save();
 
-            foreach (BuyList item in buyList)
+            foreach (BuyList item in repository.GetAll())
             {
                 Console.WriteLine(item.DataList());
-            }
-
-            List<Product> products = new List<Product>();
-
-            Product p = new Product(
-                "Yerba",
-                "Cachamate",
-                2,
-                "almacen"
-                );
-            products.Add(p);
-
-            foreach (var item in products)
-            {
-                Console.WriteLine(item.getProduct());
             }
         }
     }
