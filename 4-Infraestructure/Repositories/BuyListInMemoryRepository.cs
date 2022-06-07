@@ -1,11 +1,12 @@
 ﻿using ListasDeCompras.Domain.Entities;
+using ListasDeCompras.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ListasDeCompras.Domain.Repositories
+namespace ListasDeCompras.Infraestructure.Repositories
 {
     public class BuyListInMemoryRepository: BuyListRepository
     {

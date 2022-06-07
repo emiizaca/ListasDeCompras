@@ -14,21 +14,17 @@ namespace ListasDeCompras.Domain.Entities
         private Name name;
         private Classification classification;
         private BuyDateOfOneWeek buyDate;
-
-        private BuyListRepository repository;
-
-        public BuyList(Guid id, string name, string classification, DateTime buyDate, BuyListRepository repository)
+        public BuyList(Guid id, string name, string classification, DateTime buyDate)
         {
             this.id = new Identity(id);
             this.name = new Name(name);
             this.classification = new Classification(classification);
             this.buyDate = new BuyDateOfOneWeek(buyDate);
-            this.repository = repository;
         }
 
-        public static BuyList CreateNewBuyList(string name, string classification, DateTime buyDate,BuyListRepository repository)
+        public static BuyList CreateNewBuyList(string name, string classification, DateTime buyDate)
         {
-            return new BuyList(Guid.NewGuid(), name, classification, buyDate, repository);
+            return new BuyList(Guid.NewGuid(), name, classification, buyDate);
         }
 
         public Guid Id()
@@ -52,9 +48,6 @@ namespace ListasDeCompras.Domain.Entities
             return $"List name: {this.Name()}\nThe classification is: {this.Classification()}\nThe buy day is: {this.BuyDate()}";
         }
 
-        public void Save()
-        {
-            this.repository.Add(this);
-        }
+
     }
 }
