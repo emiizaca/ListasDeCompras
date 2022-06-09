@@ -1,4 +1,5 @@
-﻿using ListasDeCompras.Domain.Entities;
+﻿using ListasDeCompras.Application.DTO;
+using ListasDeCompras.Domain.Entities;
 using ListasDeCompras.Domain.Repositories;
 using System;
 using System.Collections.Generic;
@@ -17,9 +18,20 @@ namespace ListasDeCompras.Application
             this.repository = repository;
         }
 
-        public List<BuyList> Execute()
+        public List<BuyListDTO> Execute()
         {
-            return this.repository.GetAll();
+            List<BuyListDTO> buyListDTO = new List<BuyListDTO>();
+            foreach (BuyList actualBuyList in this.repository.GetAll())
+            {
+                buyListDTO.Add(
+                    new BuyListDTO(
+                        actualBuyList.Name(),
+                        actualBuyList.Classification(),
+                        actualBuyList.BuyDate()
+                        )
+                    );
+            }
+            return buyListDTO;
         }
     }
 }

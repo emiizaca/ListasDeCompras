@@ -47,7 +47,5 @@ namespace ListasDeCompras.Domain.Entities
         {
             return $"List name: {this.Name()}\nThe classification is: {this.Classification()}\nThe buy day is: {this.BuyDate()}";
         }
-
-
     }
 }
