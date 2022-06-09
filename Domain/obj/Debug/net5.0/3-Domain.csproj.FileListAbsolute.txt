@@ -1,0 +1,15 @@
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\bin\Debug\net5.0\3-Domain.deps.json
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\bin\Debug\net5.0\3-Domain.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\bin\Debug\net5.0\3-Domain.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\bin\Debug\net5.0\9-Transversal.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\bin\Debug\net5.0\9-Transversal.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.csproj.AssemblyReference.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.AssemblyInfoInputs.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.AssemblyInfo.cs
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.csproj.CoreCompileInputs.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.csproj.CopyComplete
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\refint\3-Domain.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\ref\3-Domain.dll

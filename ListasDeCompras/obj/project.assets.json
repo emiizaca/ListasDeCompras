@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "2-Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "3-Domain": "1.0.0",
+          "4-Infraestructure": "1.0.0",
+          "9-Transversal": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/2-Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/2-Application.dll": {}
+        }
+      },
+      "3-Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "9-Transversal": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/3-Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/3-Domain.dll": {}
+        }
+      },
+      "4-Infraestructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "3-Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/4-Infraestructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/4-Infraestructure.dll": {}
+        }
+      },
+      "9-Transversal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/9-Transversal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/9-Transversal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "2-Application/1.0.0": {
+      "type": "project",
+      "path": "../2-Application/2-Application.csproj",
+      "msbuildProject": "../2-Application/2-Application.csproj"
+    },
+    "3-Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/3-Domain.csproj",
+      "msbuildProject": "../Domain/3-Domain.csproj"
+    },
+    "4-Infraestructure/1.0.0": {
+      "type": "project",
+      "path": "../4-Infraestructure/4-Infraestructure.csproj",
+      "msbuildProject": "../4-Infraestructure/4-Infraestructure.csproj"
+    },
+    "9-Transversal/1.0.0": {
+      "type": "project",
+      "path": "../Transversal/9-Transversal.csproj",
+      "msbuildProject": "../Transversal/9-Transversal.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "2-Application >= 1.0.0",
+      "3-Domain >= 1.0.0",
+      "4-Infraestructure >= 1.0.0",
+      "9-Transversal >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Maxi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\ListasDeCompras\\1-Presentation.csproj",
+      "projectName": "1-Presentation",
+      "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\ListasDeCompras\\1-Presentation.csproj",
+      "packagesPath": "C:\\Users\\Maxi\\.nuget\\packages\\",
+      "outputPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\ListasDeCompras\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Maxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\2-Application\\2-Application.csproj": {
+              "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\2-Application\\2-Application.csproj"
+            },
+            "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj": {
+              "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj"
+            },
+            "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Domain\\3-Domain.csproj": {
+              "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Domain\\3-Domain.csproj"
+            },
+            "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Transversal\\9-Transversal.csproj": {
+              "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Transversal\\9-Transversal.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

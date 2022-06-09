@@ -1,0 +1,12 @@
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\bin\Debug\net5.0\9-Transversal.deps.json
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\bin\Debug\net5.0\9-Transversal.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\bin\Debug\net5.0\9-Transversal.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.csproj.AssemblyReference.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.AssemblyInfoInputs.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.AssemblyInfo.cs
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.csproj.CoreCompileInputs.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\refint\9-Transversal.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\ref\9-Transversal.dll

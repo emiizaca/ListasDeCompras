@@ -10,20 +10,32 @@ namespace ListasDeCompras.Domain.Entities
     public class Product
     {
         private Name name;
+        private Identity id;
         private Brand brand;
         private Quantity quantity;
         private Category category;
 
-        public Product(string name, string brand, int quantity, string category)
+        public Product(Guid id, string name, string brand, int quantity, string category)
         {
+            this.id = new Identity(id);
             this.name = new Name(name);
             this.brand = new Brand(brand);
             this.quantity = new Quantity(quantity);
             this.category = new Category(category);
         }
+
+        public static Product CreateNewProduct(string name, string brand, int quantity, string category)
+        {
+            return new Product(Guid.NewGuid(), name, brand, quantity, category);
+        }
+
         public string Name()
         {
             return this.name.Value();
+        }
+        public Identity Id()
+        {
+            return this.id;
         }
         public string Brand()
         {
