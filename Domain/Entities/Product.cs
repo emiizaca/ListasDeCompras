@@ -33,9 +33,9 @@ namespace ListasDeCompras.Domain.Entities
         {
             return this.name.Value();
         }
-        public Identity Id()
+        public Guid Id()
         {
-            return this.id;
+            return this.id.Value();
         }
         public string Brand()
         {
