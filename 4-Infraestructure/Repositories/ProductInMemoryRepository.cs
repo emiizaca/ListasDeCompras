@@ -1,12 +1,12 @@
-﻿using Domain.Repositories;
-using ListasDeCompras.Domain.Entities;
+﻿using ListasDeCompras.Domain.Entities;
+using ListasDeCompras.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infraestructure.Repositories
+namespace ListasDeCompras.Infraestructure.Repositories
 {
     public class ProductInMemoryRepository : ProductRepository
     {

@@ -10,3 +10,15 @@ E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj
 E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\refint\9-Transversal.dll
 E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.pdb
 E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Transversal\obj\Debug\net5.0\ref\9-Transversal.dll
+D:\workspace\dotnet\ListasDeCompras\Transversal\bin\Debug\net5.0\9-Transversal.deps.json
+D:\workspace\dotnet\ListasDeCompras\Transversal\bin\Debug\net5.0\9-Transversal.dll
+D:\workspace\dotnet\ListasDeCompras\Transversal\bin\Debug\net5.0\ref\9-Transversal.dll
+D:\workspace\dotnet\ListasDeCompras\Transversal\bin\Debug\net5.0\9-Transversal.pdb
+D:\workspace\dotnet\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.csproj.AssemblyReference.cache
+D:\workspace\dotnet\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\dotnet\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.AssemblyInfoInputs.cache
+D:\workspace\dotnet\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.AssemblyInfo.cs
+D:\workspace\dotnet\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.csproj.CoreCompileInputs.cache
+D:\workspace\dotnet\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.dll
+D:\workspace\dotnet\ListasDeCompras\Transversal\obj\Debug\net5.0\ref\9-Transversal.dll
+D:\workspace\dotnet\ListasDeCompras\Transversal\obj\Debug\net5.0\9-Transversal.pdb

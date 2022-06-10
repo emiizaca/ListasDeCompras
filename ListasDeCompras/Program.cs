@@ -11,9 +11,14 @@ namespace ListasDeCompras
     {
         static void Main(string[] args)
         {
-            BuyListRepository repository = new BuyListInMemoryRepository();
-            BuyListCreator buyListCreatorService = new BuyListCreator(repository);
-            ExistingLists existingListsService = new ExistingLists(repository);
+            BuyListRepository buyListRepository = new BuyListInMemoryRepository();
+            ProductRepository productRepository = new ProductInMemoryRepository();
+
+            BuyListCreator buyListCreatorService = new BuyListCreator(buyListRepository);
+            ExistingLists existingListsService = new ExistingLists(buyListRepository);
+
+            ProductCreator productCreador = new ProductCreator(productRepository);
+            ExistingProducts existingProducts = new ExistingProducts(productRepository);
 
             BuyListDTO buyList = new BuyListDTO(
                 "Compra de mañana",
@@ -32,6 +37,19 @@ namespace ListasDeCompras
             foreach (BuyListDTO item in existingListsService.Execute())
             {
                 Console.WriteLine(item.DataList());
+            }
+
+            ProductDTO product = new ProductDTO(
+                "Yerba",
+                "Marolio",
+                3,
+                "almacen"
+                );
+            productCreador.Execute(product);
+
+            foreach (ProductDTO item in existingProducts.Execute())
+            {
+                Console.WriteLine(item.getProduct());
             }
         }
     }

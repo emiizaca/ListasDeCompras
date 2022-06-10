@@ -16,7 +16,7 @@ namespace ListasDeCompras.Domain.Entities
         private Category category;
 
         public Product(Guid id, string name, string brand, int quantity, string category)
-        {
+        { 
             this.id = new Identity(id);
             this.name = new Name(name);
             this.brand = new Brand(brand);

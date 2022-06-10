@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "shCa5q0IwyAADjLuEGWqNeTcxkirxYh/YjPX5nBMEP8FDk9EL5qxem7cJYYCRX94TOBv2gSdPQK//W14efEBTw==",
+  "dgSpecHash": "TZuC4j4ZB63s87nGpC+blujc/q7TIur2oFHRqtC8AAGO0P8aR3OvMAA7uIiK2+ylyCRov3PLhTA0DoX5YkEDnA==",
   "success": true,
-  "projectFilePath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Domain\\3-Domain.csproj",
+  "projectFilePath": "D:\\workspace\\dotnet\\ListasDeCompras\\Domain\\3-Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

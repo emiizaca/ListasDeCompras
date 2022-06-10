@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tAmC6uCBQ/hg8a5NZincNWMjjBXrBaoWCI2SztE8vdUu1SNfGYNpl3BAWGOayaDl+jDeZCtxfPFfsRKq5wZN7w==",
+  "dgSpecHash": "q6zfo+iFn3V+9LMabh/tp9a8Dq+x/rowP4uRgKMcLItIaQae2mmzEan8eKm37h4k4aYJ/5ZM+l9WEmGd2WVwBg==",
   "success": true,
-  "projectFilePath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj",
+  "projectFilePath": "D:\\workspace\\dotnet\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

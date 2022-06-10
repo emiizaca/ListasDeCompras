@@ -1,6 +1,6 @@
-﻿using Domain.Repositories;
-using ListasDeCompras.Application.DTO;
+﻿using ListasDeCompras.Application.DTO;
 using ListasDeCompras.Domain.Entities;
+using ListasDeCompras.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,0 +1,17 @@
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\4-Infraestructure.deps.json
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\4-Infraestructure.dll
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\ref\4-Infraestructure.dll
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\4-Infraestructure.pdb
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\3-Domain.dll
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\9-Transversal.dll
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\3-Domain.pdb
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\9-Transversal.pdb
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.csproj.AssemblyReference.cache
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.AssemblyInfoInputs.cache
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.AssemblyInfo.cs
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.csproj.CoreCompileInputs.cache
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.csproj.CopyComplete
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.dll
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\ref\4-Infraestructure.dll
+D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.pdb

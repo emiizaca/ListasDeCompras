@@ -1,0 +1,16 @@
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\ListasDeCompras.exe
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\ListasDeCompras.deps.json
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\ListasDeCompras.runtimeconfig.json
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\ListasDeCompras.runtimeconfig.dev.json
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\ListasDeCompras.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\ref\ListasDeCompras.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\ListasDeCompras.pdb
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ListasDeCompras.csproj.AssemblyReference.cache
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ListasDeCompras.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ListasDeCompras.AssemblyInfoInputs.cache
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ListasDeCompras.AssemblyInfo.cs
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ListasDeCompras.csproj.CoreCompileInputs.cache
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ListasDeCompras.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ref\ListasDeCompras.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ListasDeCompras.pdb
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ListasDeCompras.genruntimeconfig.cache

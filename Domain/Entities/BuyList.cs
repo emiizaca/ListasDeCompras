@@ -1,5 +1,4 @@
-﻿using ListasDeCompras.Domain.Repositories;
-using ListasDeCompras.Domain.ValueObjects;
+﻿using ListasDeCompras.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +13,10 @@ namespace ListasDeCompras.Domain.Entities
         private Name name;
         private Classification classification;
         private BuyDateOfOneWeek buyDate;
+
+        private readonly List<Product> products = new List<Product>();
+        public IEnumerable<Product> Products => products.AsReadOnly();
+
         public BuyList(Guid id, string name, string classification, DateTime buyDate)
         {
             this.id = new Identity(id);
@@ -26,6 +29,14 @@ namespace ListasDeCompras.Domain.Entities
         {
             return new BuyList(Guid.NewGuid(), name, classification, buyDate);
         }
+
+        public void  CreateProduct(string name, string brand, int quantity, string category)
+        {
+            Product product = Product.CreateNewProduct(name, brand, quantity, category);
+            products.Add(product);
+        }
+
+        //todo: public void DeleteProduct();
 
         public Guid Id()
         {

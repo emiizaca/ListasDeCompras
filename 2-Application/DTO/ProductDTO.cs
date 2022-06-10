@@ -41,7 +41,7 @@ namespace ListasDeCompras.Application.DTO
             return this.category;
         }
 
-        public string DataList()
+        public string getProduct()
         {
             return $"Product name: {this.Name()}\nBrand: {this.Brand()}\nQuantity: {this.Quantity()}\nThe category is: {this.Category()}";
         }

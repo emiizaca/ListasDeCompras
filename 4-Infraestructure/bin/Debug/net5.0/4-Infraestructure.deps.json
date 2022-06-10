@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "4-Infraestructure/1.0.0": {
+        "dependencies": {
+          "3-Domain": "1.0.0"
+        },
+        "runtime": {
+          "4-Infraestructure.dll": {}
+        }
+      },
+      "3-Domain/1.0.0": {
+        "dependencies": {
+          "9-Transversal": "1.0.0"
+        },
+        "runtime": {
+          "3-Domain.dll": {}
+        }
+      },
+      "9-Transversal/1.0.0": {
+        "runtime": {
+          "9-Transversal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "4-Infraestructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "3-Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "9-Transversal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

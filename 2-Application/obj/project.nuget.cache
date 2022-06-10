@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mrmYcf8VMOR+Da1yRhfZtw/k2hSAieiiWVF8A+6ddXgYYRPaB7jFHhkrrOguwEjGt8T4qzD62XFgwdiEjnQmZQ==",
+  "dgSpecHash": "1oMv9htT9a//KrhCar8kIBg82v596DYRjvvBzN9pFhMb1gOnI7sYTgj70qtdBhyN+l1TkqTVn9I0fTe8g85BOQ==",
   "success": true,
-  "projectFilePath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\2-Application\\2-Application.csproj",
+  "projectFilePath": "D:\\workspace\\dotnet\\ListasDeCompras\\2-Application\\2-Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

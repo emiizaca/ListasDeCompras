@@ -8,11 +8,23 @@
     ".NETCoreApp,Version=v5.0": {
       "1-Presentation/1.0.0": {
         "dependencies": {
+          "2-Application": "1.0.0",
           "3-Domain": "1.0.0",
+          "4-Infraestructure": "1.0.0",
           "9-Transversal": "1.0.0"
         },
         "runtime": {
           "1-Presentation.dll": {}
+        }
+      },
+      "2-Application/1.0.0": {
+        "dependencies": {
+          "3-Domain": "1.0.0",
+          "4-Infraestructure": "1.0.0",
+          "9-Transversal": "1.0.0"
+        },
+        "runtime": {
+          "2-Application.dll": {}
         }
       },
       "3-Domain/1.0.0": {
@@ -21,6 +33,14 @@
         },
         "runtime": {
           "3-Domain.dll": {}
+        }
+      },
+      "4-Infraestructure/1.0.0": {
+        "dependencies": {
+          "3-Domain": "1.0.0"
+        },
+        "runtime": {
+          "4-Infraestructure.dll": {}
         }
       },
       "9-Transversal/1.0.0": {
@@ -36,7 +56,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "2-Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "3-Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "4-Infraestructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

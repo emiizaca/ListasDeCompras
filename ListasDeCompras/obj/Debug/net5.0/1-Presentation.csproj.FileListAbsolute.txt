@@ -19,3 +19,28 @@ E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras
 E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.pdb
 E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.genruntimeconfig.cache
 E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ref\1-Presentation.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\1-Presentation.exe
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\1-Presentation.deps.json
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\1-Presentation.runtimeconfig.json
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\1-Presentation.runtimeconfig.dev.json
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\1-Presentation.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\ref\1-Presentation.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\1-Presentation.pdb
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\2-Application.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\3-Domain.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\4-Infraestructure.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\9-Transversal.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\2-Application.pdb
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\4-Infraestructure.pdb
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\3-Domain.pdb
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\9-Transversal.pdb
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.csproj.AssemblyReference.cache
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.AssemblyInfoInputs.cache
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.AssemblyInfo.cs
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.csproj.CoreCompileInputs.cache
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.csproj.CopyComplete
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ref\1-Presentation.dll
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.pdb
+D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.genruntimeconfig.cache

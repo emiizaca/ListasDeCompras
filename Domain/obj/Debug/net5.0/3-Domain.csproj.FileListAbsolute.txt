@@ -13,3 +13,18 @@ E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debu
 E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\refint\3-Domain.dll
 E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.pdb
 E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\Domain\obj\Debug\net5.0\ref\3-Domain.dll
+D:\workspace\dotnet\ListasDeCompras\Domain\bin\Debug\net5.0\3-Domain.deps.json
+D:\workspace\dotnet\ListasDeCompras\Domain\bin\Debug\net5.0\3-Domain.dll
+D:\workspace\dotnet\ListasDeCompras\Domain\bin\Debug\net5.0\ref\3-Domain.dll
+D:\workspace\dotnet\ListasDeCompras\Domain\bin\Debug\net5.0\3-Domain.pdb
+D:\workspace\dotnet\ListasDeCompras\Domain\bin\Debug\net5.0\9-Transversal.dll
+D:\workspace\dotnet\ListasDeCompras\Domain\bin\Debug\net5.0\9-Transversal.pdb
+D:\workspace\dotnet\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.csproj.AssemblyReference.cache
+D:\workspace\dotnet\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\dotnet\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.AssemblyInfoInputs.cache
+D:\workspace\dotnet\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.AssemblyInfo.cs
+D:\workspace\dotnet\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.csproj.CoreCompileInputs.cache
+D:\workspace\dotnet\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.csproj.CopyComplete
+D:\workspace\dotnet\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.dll
+D:\workspace\dotnet\ListasDeCompras\Domain\obj\Debug\net5.0\ref\3-Domain.dll
+D:\workspace\dotnet\ListasDeCompras\Domain\obj\Debug\net5.0\3-Domain.pdb
