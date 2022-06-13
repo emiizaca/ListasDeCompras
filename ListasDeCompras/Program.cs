@@ -2,6 +2,7 @@
 using ListasDeCompras.Application.DTO;
 using ListasDeCompras.Domain.Repositories;
 using ListasDeCompras.Infraestructure.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 
@@ -11,8 +12,10 @@ namespace ListasDeCompras
     {
         static void Main(string[] args)
         {
-            BuyListRepository buyListRepository = new BuyListInMemoryRepository();
-            ProductRepository productRepository = new ProductInMemoryRepository();
+            var options = new DbContextOptionsBuilder<DataBaseContext>().UseInMemoryDatabase(databaseName: "ListasDeCompras").Options;
+
+            BuyListRepository buyListRepository = new BuyListInMemoryRepository(options);
+            ProductRepository productRepository = new ProductInMemoryRepository(options);
 
             BuyListCreator buyListCreatorService = new BuyListCreator(buyListRepository);
             ExistingLists existingListsService = new ExistingLists(buyListRepository);
@@ -23,14 +26,14 @@ namespace ListasDeCompras
             BuyListDTO buyList = new BuyListDTO(
                 "Compra de mañana",
                 "car",
-                DateTime.Parse("2022-6-10")
+                DateTime.Parse("2022-06-15")
             );
             buyListCreatorService.Execute(buyList);
 
             BuyListDTO buyList2 = new BuyListDTO(
                 "Compra del finde",
                 "general",
-                DateTime.Parse("2022-6-11")
+                DateTime.Parse("2022-06-16")
             );
             buyListCreatorService.Execute(buyList2);
 

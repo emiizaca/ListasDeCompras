@@ -14,10 +14,10 @@ namespace ListasDeCompras.Domain.Entities
         private Classification classification;
         private BuyDateOfOneWeek buyDate;
 
-        private readonly List<Product> products = new List<Product>();
+       /* private readonly List<Product> products = new List<Product>();
         public IEnumerable<Product> Products => products.AsReadOnly();
-
-        public BuyList(Guid id, string name, string classification, DateTime buyDate)
+       */
+        public BuyList(string id, string name, string classification, DateTime buyDate)
         {
             this.id = new Identity(id);
             this.name = new Name(name);
@@ -27,18 +27,18 @@ namespace ListasDeCompras.Domain.Entities
 
         public static BuyList CreateNewBuyList(string name, string classification, DateTime buyDate)
         {
-            return new BuyList(Guid.NewGuid(), name, classification, buyDate);
+            return new BuyList(Guid.NewGuid().ToString(), name, classification, buyDate);
         }
 
-        public void  CreateProduct(string name, string brand, int quantity, string category)
+        /*public void  CreateProduct(string name, string brand, int quantity, string category)
         {
             Product product = Product.CreateNewProduct(name, brand, quantity, category);
             products.Add(product);
-        }
+        }*/
 
         //todo: public void DeleteProduct();
 
-        public Guid Id()
+        public string Id()
         {
             return this.id.Value();
         }

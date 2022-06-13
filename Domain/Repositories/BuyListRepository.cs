@@ -11,6 +11,6 @@ namespace ListasDeCompras.Domain.Repositories
     {
         public void Add(BuyList buyList);
         public List<BuyList> GetAll();
-        public BuyList getById(Guid id);
+        public BuyList getById(string id);
     }
 }

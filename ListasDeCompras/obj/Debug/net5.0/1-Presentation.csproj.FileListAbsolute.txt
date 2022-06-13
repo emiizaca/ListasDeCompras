@@ -44,3 +44,19 @@ D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentat
 D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\ref\1-Presentation.dll
 D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.pdb
 D:\workspace\dotnet\ListasDeCompras\ListasDeCompras\obj\Debug\net5.0\1-Presentation.genruntimeconfig.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\2-Application.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\4-Infraestructure.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\2-Application.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\4-Infraestructure.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\ListasDeCompras\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll

@@ -8,13 +8,13 @@ namespace ListasDeCompras.Domain.ValueObjects
 {
     public class Identity
     {
-        private Guid value;
+        private string value;
 
-        public Identity(Guid value)
+        public Identity(string value)
         {
             this.value = value;
         }
-        public Guid Value()
+        public string Value()
         {
             return this.value;
         }

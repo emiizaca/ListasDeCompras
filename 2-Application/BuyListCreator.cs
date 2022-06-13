@@ -21,7 +21,8 @@ namespace ListasDeCompras.Application
         public void Execute(BuyListDTO buyListDTO)
         {
             this.repository.Add(
-                BuyList.CreateNewBuyList(
+                new BuyList(
+                    Guid.NewGuid().ToString(),
                     buyListDTO.Name(), 
                     buyListDTO.Classification(), 
                     buyListDTO.BuyDate()
