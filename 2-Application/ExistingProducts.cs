@@ -18,21 +18,21 @@ namespace ListasDeCompras.Application
             this.repository = repository;
         }
 
-        public List<ProductDTO> Execute()
-        {
-            List<ProductDTO> productDTO = new List<ProductDTO>();
-            foreach (Product actualProduct in this.repository.GetAll())
-            {
-                productDTO.Add(
-                    new ProductDTO(
-                        actualProduct.Name(),
-                        actualProduct.Brand(),
-                        actualProduct.Quantity(),
-                        actualProduct.Category()
-                        )
-                    );
-            }
-            return productDTO;
-        }
+        //public List<ProductCreationDTO> Execute()
+        //{
+        //    List<ProductCreationDTO> productDTO = new List<ProductCreationDTO>();
+        //    foreach (Product actualProduct in this.repository.GetAll())
+        //    {
+        //        productDTO.Add(
+        //            new ProductCreationDTO(
+        //                actualProduct.Name(),
+        //                actualProduct.Brand(),
+        //                actualProduct.Quantity(),
+        //                actualProduct.Category()
+        //                )
+        //            );
+        //    }
+        //    return productDTO;
+        //}
     }
 }

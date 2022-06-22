@@ -17,40 +17,42 @@ namespace ListasDeCompras
             BuyListCreator buyListCreatorService = new BuyListCreator(buyListRepository);
             ExistingLists existingListsService = new ExistingLists(buyListRepository);
 
-            ProductCreator productCreador = new ProductCreator(productRepository);
-            ExistingProducts existingProducts = new ExistingProducts(productRepository);
+            ProductCreator productCreadorService = new ProductCreator(productRepository);
+            //ExistingProducts existingProducts = new ExistingProducts(productRepository);
 
-            BuyListDTO buyList = new BuyListDTO(
+            BuyListCreationDTO buyList = new BuyListCreationDTO(
                 "Compra de mañana",
                 "car",
-                DateTime.Parse("2022-6-10")
+                DateTime.Parse("2022-6-22")
             );
             buyListCreatorService.Execute(buyList);
 
-            BuyListDTO buyList2 = new BuyListDTO(
+            BuyListCreationDTO buyList2 = new BuyListCreationDTO(
                 "Compra del finde",
                 "general",
-                DateTime.Parse("2022-6-11")
+                DateTime.Parse("2022-6-23")
             );
             buyListCreatorService.Execute(buyList2);
 
-            foreach (BuyListDTO item in existingListsService.Execute())
+            List<BuyListDTO> buyLists = existingListsService.Execute();
+            foreach (BuyListDTO item in buyLists)
             {
                 Console.WriteLine(item.DataList());
             }
 
-            ProductDTO product = new ProductDTO(
+            ProductCreationDTO product = new ProductCreationDTO(
+                buyLists[0].Id(),
                 "Yerba",
                 "Marolio",
                 3,
                 "almacen"
                 );
-            productCreador.Execute(product);
+            productCreadorService.Execute(product);
 
-            foreach (ProductDTO item in existingProducts.Execute())
-            {
-                Console.WriteLine(item.getProduct());
-            }
+            //foreach (ProductDTO item in existingProducts.Execute())
+            //{
+            //    Console.WriteLine(item.getProduct());
+            //}
         }
     }
 }

@@ -9,33 +9,38 @@ namespace ListasDeCompras.Domain.Entities
 {
     public class Product
     {
-        private Name name;
         private Identity id;
+        private Identity buyListId;
+        private Name name;
         private Brand brand;
         private Quantity quantity;
         private Category category;
-
-        public Product(Guid id, string name, string brand, int quantity, string category)
+        public Product(Guid id, Guid buyListId, string name, string brand, int quantity, string category)
         { 
             this.id = new Identity(id);
+            this.buyListId = new Identity(buyListId);
             this.name = new Name(name);
             this.brand = new Brand(brand);
             this.quantity = new Quantity(quantity);
             this.category = new Category(category);
         }
 
-        public static Product CreateNewProduct(string name, string brand, int quantity, string category)
+        public static Product CreateNewProduct(Guid buyListId, string name, string brand, int quantity, string category)
         {
-            return new Product(Guid.NewGuid(), name, brand, quantity, category);
-        }
-
-        public string Name()
-        {
-            return this.name.Value();
+            return new Product(Guid.NewGuid(), buyListId , name, brand, quantity, category);
         }
         public Guid Id()
         {
             return this.id.Value();
+        }
+
+        public Guid BuyListId()
+        {
+            return this.buyListId.Value();
+        }
+        public string Name()
+        {
+            return this.name.Value();
         }
         public string Brand()
         {

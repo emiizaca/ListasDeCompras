@@ -17,14 +17,13 @@ namespace ListasDeCompras.Application
         {
             this.repository = repository;
         }
-
-        public void Execute(BuyListDTO buyListDTO)
+        public void Execute(BuyListCreationDTO buyListCreationDTO)
         {
             this.repository.Add(
                 BuyList.CreateNewBuyList(
-                    buyListDTO.Name(), 
-                    buyListDTO.Classification(), 
-                    buyListDTO.BuyDate()
+                    buyListCreationDTO.Name(),
+                    buyListCreationDTO.Classification(),
+                    buyListCreationDTO.BuyDate()
                 )
             );
         }

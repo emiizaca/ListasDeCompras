@@ -25,6 +25,7 @@ namespace ListasDeCompras.Application
             {
                 buyListDTO.Add(
                     new BuyListDTO(
+                        actualBuyList.Id(),
                         actualBuyList.Name(),
                         actualBuyList.Classification(),
                         actualBuyList.BuyDate()

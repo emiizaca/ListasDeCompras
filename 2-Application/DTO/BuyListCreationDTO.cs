@@ -6,26 +6,19 @@ using System.Threading.Tasks;
 
 namespace ListasDeCompras.Application.DTO
 {
-    public class BuyListDTO
+    public class BuyListCreationDTO
     {
-        private Guid id;
         private string name;
         private string classification;
         private DateTime buyDate;
-        private List<ProductCreationDTO> products;
 
-        public BuyListDTO(Guid id, string name, string classification, DateTime buyDate)
+        public BuyListCreationDTO(string name, string classification, DateTime buyDate)
         {
-            this.id = id;
             this.name = name;
             this.classification = classification;
             this.buyDate = buyDate;
         }
 
-        public Guid Id()
-        {
-            return this.id;
-        }
         public string Name()
         {
             return this.name;
@@ -40,7 +33,7 @@ namespace ListasDeCompras.Application.DTO
         }
         public string DataList()
         {
-            return $"Id: {this.Id()}\nList name: {this.Name()}\nThe classification is: {this.Classification()}\nThe buy day is: {this.BuyDate()}";
+            return $"List name: {this.Name()}\nThe classification is: {this.Classification()}\nThe buy day is: {this.BuyDate()}";
         }
     }
 }

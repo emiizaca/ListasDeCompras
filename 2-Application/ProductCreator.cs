@@ -18,14 +18,15 @@ namespace ListasDeCompras.Application
             this.repository = repository;
         }
 
-        public void Execute(ProductDTO productDTO)
+        public void Execute(ProductCreationDTO productCreationDTO)
         {
             this.repository.Add(
                 Product.CreateNewProduct(
-                    productDTO.Name(),
-                    productDTO.Brand(),
-                    productDTO.Quantity(),
-                    productDTO.Category()
+                    productCreationDTO.BuyListId(),
+                    productCreationDTO.Name(),
+                    productCreationDTO.Brand(),
+                    productCreationDTO.Quantity(),
+                    productCreationDTO.Category()
                     )
                 );
         }
