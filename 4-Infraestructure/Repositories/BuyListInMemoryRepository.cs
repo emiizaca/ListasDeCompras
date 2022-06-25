@@ -1,5 +1,7 @@
-﻿using ListasDeCompras.Domain.Entities;
+﻿using _4_Infraestructure.Repositories;
+using ListasDeCompras.Domain.Entities;
 using ListasDeCompras.Domain.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,21 +12,25 @@ namespace ListasDeCompras.Infraestructure.Repositories
 {
     public class BuyListInMemoryRepository: BuyListRepository
     {
-        private List<BuyList> buyLists = new List<BuyList>();
 
         public void Add(BuyList buyList)
         {
-            this.buyLists.Add(buyList);
+            using var context = new DatabaseContext();
+            context.buyLists.Add(buyList);
+            context.SaveChanges();
         }
 
         public List<BuyList> GetAll()
         {
-            return this.buyLists;
+            using var context = new DatabaseContext();
+            return context.buyLists.ToList();
         }
 
         public BuyList getById(Guid id)
         {
-            return this.buyLists.Find(buyList => buyList.Id() == id);
+            using var context = new DatabaseContext();
+            List<BuyList> buyLists = context.buyLists.ToList();
+            return buyLists.Find(buyList => buyList.Id().Equals(id));
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using ListasDeCompras.Domain.Entities;
+﻿using _4_Infraestructure.Repositories;
+using ListasDeCompras.Domain.Entities;
 using ListasDeCompras.Domain.Repositories;
 using System;
 using System.Collections.Generic;
@@ -10,21 +11,25 @@ namespace ListasDeCompras.Infraestructure.Repositories
 {
     public class ProductInMemoryRepository : ProductRepository
     {
-        private List<Product> productList = new List<Product>();
-
+        
         public void Add(Product product)
         {
-            this.productList.Add(product);
+            using var context = new DatabaseContext();
+            context.products.Add(product);
+            context.SaveChanges();
         }
 
         public List<Product> GetAll()
         {
-            return this.productList;
+            using var context = new DatabaseContext();
+            return context.products.ToList();
         }
 
         public Product GetById(Guid id)
         {
-            return this.productList.Find(product => product.Id() == id);
+            using var context = new DatabaseContext();
+            List<Product> products = context.products.ToList();
+            return products.Find(product => product.Id() == id);
         }
     }
 }

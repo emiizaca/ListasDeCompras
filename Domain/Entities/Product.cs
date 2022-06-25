@@ -1,6 +1,8 @@
 ﻿using ListasDeCompras.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,12 +11,14 @@ namespace ListasDeCompras.Domain.Entities
 {
     public class Product
     {
+        [Key]
         private Identity id;
         private Identity buyListId;
         private Name name;
         private Brand brand;
         private Quantity quantity;
         private Category category;
+
         public Product(Guid id, Guid buyListId, string name, string brand, int quantity, string category)
         { 
             this.id = new Identity(id);
