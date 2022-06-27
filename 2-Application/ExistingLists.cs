@@ -12,7 +12,6 @@ namespace ListasDeCompras.Application
     public class ExistingLists
     {
         private BuyListRepository repository;
-
         public ExistingLists(BuyListRepository repository)
         {
             this.repository = repository;

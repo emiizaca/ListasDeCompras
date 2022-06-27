@@ -12,7 +12,6 @@ namespace ListasDeCompras.Application.DTO
         private string name;
         private string classification;
         private DateTime buyDate;
-        private List<ProductCreationDTO> products;
 
         public BuyListDTO(Guid id, string name, string classification, DateTime buyDate)
         {

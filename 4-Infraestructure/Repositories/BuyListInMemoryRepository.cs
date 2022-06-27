@@ -12,25 +12,18 @@ namespace ListasDeCompras.Infraestructure.Repositories
 {
     public class BuyListInMemoryRepository: BuyListRepository
     {
-
+        private List<BuyList> buyLists = new List<BuyList>();
         public void Add(BuyList buyList)
         {
-            using var context = new DatabaseContext();
-            context.buyLists.Add(buyList);
-            context.SaveChanges();
+            this.buyLists.Add(buyList);
         }
-
         public List<BuyList> GetAll()
         {
-            using var context = new DatabaseContext();
-            return context.buyLists.ToList();
+            return this.buyLists;
         }
-
         public BuyList getById(Guid id)
         {
-            using var context = new DatabaseContext();
-            List<BuyList> buyLists = context.buyLists.ToList();
-            return buyLists.Find(buyList => buyList.Id().Equals(id));
+            return this.buyLists.Find(buyList => buyList.Id() == id);
         }
     }
 }

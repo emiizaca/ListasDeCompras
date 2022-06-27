@@ -13,7 +13,7 @@ namespace ListasDeCompras.Domain.Entities
         private Name name;
         private Classification classification;
         private BuyDateOfOneWeek buyDate;
-        private List<Product> products;
+        private List<Product> products = new List<Product>();
         public BuyList(Guid id, string name, string classification, DateTime buyDate)
         {
             this.id = new Identity(id);
@@ -21,7 +21,6 @@ namespace ListasDeCompras.Domain.Entities
             this.classification = new Classification(classification);
             this.buyDate = new BuyDateOfOneWeek(buyDate);
         }
-
         public static BuyList CreateNewBuyList(string name, string classification, DateTime buyDate)
         {
             return new BuyList(Guid.NewGuid(), name, classification, buyDate);
@@ -49,6 +48,11 @@ namespace ListasDeCompras.Domain.Entities
         public DateTime BuyDate()
         {
             return this.buyDate.Value();
+        }
+
+        public List<Product> Products()
+        {
+            return this.products;
         }
         public string DataList()
         {

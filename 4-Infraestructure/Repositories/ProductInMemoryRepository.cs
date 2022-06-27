@@ -11,25 +11,24 @@ namespace ListasDeCompras.Infraestructure.Repositories
 {
     public class ProductInMemoryRepository : ProductRepository
     {
-        
+        private List<Product> productList = new List<Product>();
         public void Add(Product product)
         {
-            using var context = new DatabaseContext();
-            context.products.Add(product);
-            context.SaveChanges();
+            this.productList.Add(product);
         }
-
         public List<Product> GetAll()
         {
-            using var context = new DatabaseContext();
-            return context.products.ToList();
+            return this.productList;
+        }
+
+        public List<Product> GetByBuyListId(Guid buyListId)
+        {
+            return this.productList.FindAll(product => product.BuyListId() == buyListId);
         }
 
         public Product GetById(Guid id)
         {
-            using var context = new DatabaseContext();
-            List<Product> products = context.products.ToList();
-            return products.Find(product => product.Id() == id);
+            return this.productList.Find(product => product.Id() == id);
         }
     }
 }
