@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ListasDeCompras.Infraestructure.Repositories
 {
-    public class ProductEFRepository : ProductRepository //todo - falta implementar el metodo getByBuyListID
+    public class ProductEFRepository : ProductRepository
     {
         
         public void Add(Product product)
@@ -27,7 +27,9 @@ namespace ListasDeCompras.Infraestructure.Repositories
 
         public List<Product> GetByBuyListId(Guid buyListId)
         {
-            throw new NotImplementedException();
+            using var context = new DatabaseContext();
+            List<Product> products = context.products.Where(x => x.BuyListId() == buyListId).ToList();
+            return products;
         }
 
         public Product GetById(Guid id)
