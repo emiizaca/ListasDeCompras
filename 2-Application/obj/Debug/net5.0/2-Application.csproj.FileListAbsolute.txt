@@ -17,3 +17,4 @@ D:\workspace\dotnet\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application
 D:\workspace\dotnet\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application.dll
 D:\workspace\dotnet\ListasDeCompras\2-Application\obj\Debug\net5.0\ref\2-Application.dll
 D:\workspace\dotnet\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application.pdb
+D:\workspace\dotnet\ListasDeCompras\2-Application\bin\Debug\net5.0\4-Infraestructure.dll.config

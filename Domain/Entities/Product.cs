@@ -37,7 +37,6 @@ namespace ListasDeCompras.Domain.Entities
         {
             return this.id.Value();
         }
-
         public Guid BuyListId()
         {
             return this.buyListId.Value();
