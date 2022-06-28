@@ -1,5 +1,6 @@
 # ListasDeCompras
-TP univeristario simple, con 2 entidades conectadas con arquitectura DDD
+TP univeristario simple, con 2 entidades conectadas con arquitectura DDD.
+
 El siguiente programa se ejecuta a travez del IDE Visual Studio abriendo el archivo ListasDeCompras.sln.
 
 Para que corra correctamente debe tener localmente una base de datos MySQL con los siguientes datos:
