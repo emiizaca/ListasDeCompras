@@ -10,7 +10,7 @@ namespace UnitTest
         public void BuyList_Classification_ValidClassification()
         {
             //Arrange
-            BuyList bl = new BuyList(
+            BuyList bl = BuyList.CreateNewBuyList(
                 "Lista de compras",
                 "car",
                 DateTime.Today
@@ -21,6 +21,21 @@ namespace UnitTest
 
             //Assert
             Assert.Equal("car", classification);
+        }
+
+        [Fact]
+        public void BuyList_BuyDate_ValidBuyDate()
+        {
+            //Arrange & Act
+            BuyList bl;
+            Action act = () => bl = BuyList.CreateNewBuyList(
+                "Lista de compras",
+                "car",
+                DateTime.Parse("2021-6-28")
+                );
+
+            //Assert
+            Exception exception = Assert.Throws<Exception>(act);
         }
     }
 }

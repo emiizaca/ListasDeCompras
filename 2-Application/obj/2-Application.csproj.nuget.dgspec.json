@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\2-Application\\2-Application.csproj": {}
+    "D:\\workspace\\dotnet\\ListasDeCompras\\2-Application\\2-Application.csproj": {}
   },
   "projects": {
-    "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\2-Application\\2-Application.csproj": {
+    "D:\\workspace\\dotnet\\ListasDeCompras\\2-Application\\2-Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\2-Application\\2-Application.csproj",
+        "projectUniqueName": "D:\\workspace\\dotnet\\ListasDeCompras\\2-Application\\2-Application.csproj",
         "projectName": "2-Application",
-        "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\2-Application\\2-Application.csproj",
-        "packagesPath": "C:\\Users\\Maxi\\.nuget\\packages\\",
-        "outputPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\2-Application\\obj\\",
+        "projectPath": "D:\\workspace\\dotnet\\ListasDeCompras\\2-Application\\2-Application.csproj",
+        "packagesPath": "C:\\Users\\emiiz\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\dotnet\\ListasDeCompras\\2-Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emiiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj": {
-                "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj"
+              "D:\\workspace\\dotnet\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj": {
+                "projectPath": "D:\\workspace\\dotnet\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj"
               },
-              "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Domain\\3-Domain.csproj": {
-                "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Domain\\3-Domain.csproj"
+              "D:\\workspace\\dotnet\\ListasDeCompras\\Domain\\3-Domain.csproj": {
+                "projectPath": "D:\\workspace\\dotnet\\ListasDeCompras\\Domain\\3-Domain.csproj"
               },
-              "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Transversal\\9-Transversal.csproj": {
-                "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Transversal\\9-Transversal.csproj"
+              "D:\\workspace\\dotnet\\ListasDeCompras\\Transversal\\9-Transversal.csproj": {
+                "projectPath": "D:\\workspace\\dotnet\\ListasDeCompras\\Transversal\\9-Transversal.csproj"
               }
             }
           }
@@ -70,21 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj": {
+    "D:\\workspace\\dotnet\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj",
+        "projectUniqueName": "D:\\workspace\\dotnet\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj",
         "projectName": "4-Infraestructure",
-        "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\Maxi\\.nuget\\packages\\",
-        "outputPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\4-Infraestructure\\obj\\",
+        "projectPath": "D:\\workspace\\dotnet\\ListasDeCompras\\4-Infraestructure\\4-Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\emiiz\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\dotnet\\ListasDeCompras\\4-Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emiiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,8 +98,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Domain\\3-Domain.csproj": {
-                "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Domain\\3-Domain.csproj"
+              "D:\\workspace\\dotnet\\ListasDeCompras\\Domain\\3-Domain.csproj": {
+                "projectPath": "D:\\workspace\\dotnet\\ListasDeCompras\\Domain\\3-Domain.csproj"
               }
             }
           }
@@ -146,21 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Domain\\3-Domain.csproj": {
+    "D:\\workspace\\dotnet\\ListasDeCompras\\Domain\\3-Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Domain\\3-Domain.csproj",
+        "projectUniqueName": "D:\\workspace\\dotnet\\ListasDeCompras\\Domain\\3-Domain.csproj",
         "projectName": "3-Domain",
-        "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Domain\\3-Domain.csproj",
-        "packagesPath": "C:\\Users\\Maxi\\.nuget\\packages\\",
-        "outputPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Domain\\obj\\",
+        "projectPath": "D:\\workspace\\dotnet\\ListasDeCompras\\Domain\\3-Domain.csproj",
+        "packagesPath": "C:\\Users\\emiiz\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\dotnet\\ListasDeCompras\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emiiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,8 +174,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Transversal\\9-Transversal.csproj": {
-                "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Transversal\\9-Transversal.csproj"
+              "D:\\workspace\\dotnet\\ListasDeCompras\\Transversal\\9-Transversal.csproj": {
+                "projectPath": "D:\\workspace\\dotnet\\ListasDeCompras\\Transversal\\9-Transversal.csproj"
               }
             }
           }
@@ -204,21 +204,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Transversal\\9-Transversal.csproj": {
+    "D:\\workspace\\dotnet\\ListasDeCompras\\Transversal\\9-Transversal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Transversal\\9-Transversal.csproj",
+        "projectUniqueName": "D:\\workspace\\dotnet\\ListasDeCompras\\Transversal\\9-Transversal.csproj",
         "projectName": "9-Transversal",
-        "projectPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Transversal\\9-Transversal.csproj",
-        "packagesPath": "C:\\Users\\Maxi\\.nuget\\packages\\",
-        "outputPath": "E:\\Documentos\\APU\\Ejercicios de programación\\C#\\ListasDeCompras\\Transversal\\obj\\",
+        "projectPath": "D:\\workspace\\dotnet\\ListasDeCompras\\Transversal\\9-Transversal.csproj",
+        "packagesPath": "C:\\Users\\emiiz\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\dotnet\\ListasDeCompras\\Transversal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emiiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -258,7 +258,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
