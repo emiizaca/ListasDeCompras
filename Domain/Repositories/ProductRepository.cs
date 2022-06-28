@@ -13,5 +13,7 @@ namespace ListasDeCompras.Domain.Repositories
         public List<Product> GetAll();
         public Product GetById(Guid id);
         public List<Product> GetByBuyListId(Guid buyListId);
+        public void Update(Product product, Guid id);
+        public void Delete(Guid id, Guid buyListId);
     }
 }

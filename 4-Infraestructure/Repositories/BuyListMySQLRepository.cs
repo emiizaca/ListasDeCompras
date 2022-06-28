@@ -1,4 +1,4 @@
-﻿using _4_Infraestructure.Repositories;
+﻿using ListasDeCompras.Infraestructure.Repositories;
 using Dapper;
 using ListasDeCompras.Domain.Entities;
 using ListasDeCompras.Domain.Repositories;
@@ -19,7 +19,7 @@ namespace ListasDeCompras.Infraestructure.Repositories
         //MySQLConfiguration mySQLConnectionConfig = new MySQLConfiguration(ConfigurationManager.ConnectionStrings["MySQLConnection"].ConnectionString);
         protected MySqlConnection dbConnection()
         {
-            return new MySqlConnection("server = localhost; port = 3306; database = listas_de_compras; uid = root; password = 87651234");
+            return new MySqlConnection("server = localhost; port = 3306; database = listas_de_compras; uid = root; password = 87654321");
         }
         public void Add(BuyList buyList)
         {
@@ -38,8 +38,21 @@ namespace ListasDeCompras.Infraestructure.Repositories
         public BuyList getById(Guid id)
         {
             var db = dbConnection();
-            var sql = $"SELECT * FROM buylist WHERE Id = {id}";
+            var sql = $"SELECT * FROM buylist WHERE id = {id}";
             return db.QueryFirstOrDefault(sql, new { });
+        }
+
+        public void Update(BuyList buyList, Guid id)
+        {
+            var db = dbConnection();
+            var sql = $"UPDATE buylist SET id= '{buyList.Id()}', name= '{buyList.Name()}', classification= '{buyList.Classification()}', buyDate= '{buyList.BuyDate().ToString("yyyy-MM-dd")}' WHERE Id= {id}";
+            db.Execute(sql, new { });
+        }
+        public void Delete(Guid id)
+        {
+            var db = dbConnection();
+            var sql = $"DELETE FROM buylist WHERE id= {id} ";
+            db.Execute(sql, new { });
         }
     }
 }

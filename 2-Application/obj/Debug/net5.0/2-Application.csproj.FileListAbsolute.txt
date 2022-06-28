@@ -18,3 +18,23 @@ D:\workspace\dotnet\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application
 D:\workspace\dotnet\ListasDeCompras\2-Application\obj\Debug\net5.0\ref\2-Application.dll
 D:\workspace\dotnet\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application.pdb
 D:\workspace\dotnet\ListasDeCompras\2-Application\bin\Debug\net5.0\4-Infraestructure.dll.config
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\bin\Debug\net5.0\2-Application.deps.json
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\bin\Debug\net5.0\2-Application.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\bin\Debug\net5.0\2-Application.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\bin\Debug\net5.0\3-Domain.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\bin\Debug\net5.0\4-Infraestructure.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\bin\Debug\net5.0\9-Transversal.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\bin\Debug\net5.0\4-Infraestructure.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\bin\Debug\net5.0\4-Infraestructure.dll.config
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\bin\Debug\net5.0\3-Domain.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\bin\Debug\net5.0\9-Transversal.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application.csproj.AssemblyReference.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application.AssemblyInfoInputs.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application.AssemblyInfo.cs
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application.csproj.CoreCompileInputs.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application.csproj.CopyComplete
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\obj\Debug\net5.0\refint\2-Application.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\obj\Debug\net5.0\2-Application.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\2-Application\obj\Debug\net5.0\ref\2-Application.dll

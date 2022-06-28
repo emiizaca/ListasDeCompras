@@ -12,5 +12,8 @@ namespace ListasDeCompras.Domain.Repositories
         public void Add(BuyList buyList);
         public List<BuyList> GetAll();
         public BuyList getById(Guid id);
+        public void Update(BuyList buyList, Guid id);
+        public void Delete(Guid id);
+
     }
 }

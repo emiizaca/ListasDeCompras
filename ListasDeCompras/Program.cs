@@ -11,43 +11,13 @@ namespace ListasDeCompras
     {
         static void Main(string[] args)
         {
-            //BuyListRepository buyListRepository = new BuyListInMemoryRepository();
-            //ProductRepository productRepository = new ProductInMemoryRepository();
+            DependencyInjectionManager diManager = new DependencyInjectionManager();
 
-            //BuyListCreator buyListCreatorService = new BuyListCreator(buyListRepository);
-            //ExistingLists existingListsService = new ExistingLists(buyListRepository);
-
-            //ProductCreator productCreadorService = new ProductCreator(productRepository);
-            //BuyListDetails buyListDetails = new BuyListDetails(buyListRepository, productRepository);
-
-            //BuyListCreationDTO buyList = new BuyListCreationDTO(
-            //    "Compra de mañana",
-            //    "car",
-            //    DateTime.Parse("2022-6-28")
-            //);
-            //buyListCreatorService.Execute(buyList);
-
-            //BuyListCreationDTO buyList2 = new BuyListCreationDTO(
-            //    "Compra del finde",
-            //    "general",
-            //    DateTime.Parse("2022-6-29")
-            //);
-            //buyListCreatorService.Execute(buyList2);
-
-            //List<BuyListDTO> buyLists = existingListsService.Execute();
-            //foreach (BuyListDTO item in buyLists)
-            //{
-            //    Console.WriteLine(item.DataList());
-            //}
-
-            //ProductCreationDTO product = new ProductCreationDTO(
-            //    buyLists[0].Id(),
-            //    "Yerba",
-            //    "Marolio",
-            //    3,
-            //    "almacen"
-            //    );
-            //productCreadorService.Execute(product);
+            BuyListCreator buyListCreatorService = diManager.Resolve<BuyListCreator>();
+            ExistingLists existingListsService = diManager.Resolve<ExistingLists>();
+            ProductCreator productCreadorService = diManager.Resolve<ProductCreator>();
+            ProductRemover productRemoverService = diManager.Resolve<ProductRemover>();
+            BuyListDetails buyListDetails = diManager.Resolve<BuyListDetails>();
 
             //Console.WriteLine($"Lista con id: {buyLists[0].Id()}");
             //BuyListDetailsDTO buyList3 = buyListDetails.Execute(buyLists[0].Id());
@@ -57,11 +27,17 @@ namespace ListasDeCompras
             //    Console.WriteLine(item.getProduct());
             //};
 
-            ProductRepository productRepository = new ProductMySQLRepository();
-            ProductCreator productCreadorService = new ProductCreator(productRepository);
-            Guid id = new Guid("2238dd18-4786-47c6-a34f-2d37150e60b5");
+            Guid buyListId = new Guid("2238dd18-4786-47c6-a34f-2d37150e60b5");
+
+            BuyListCreationDTO buyList = new BuyListCreationDTO(
+                "Compra de comida",
+                "general",
+                DateTime.Parse("2022-6-28")
+                );
+            buyListCreatorService.Execute(buyList);
+
             ProductCreationDTO product = new ProductCreationDTO(
-                id,
+                buyListId,
                 "Yerba",
                 "Marolio",
                 3,
@@ -69,14 +45,8 @@ namespace ListasDeCompras
                 );
             productCreadorService.Execute(product);
 
-            //BuyListRepository buyListRepository = new BuyListMySQLRepository();
-            //BuyListCreator buyListCreatorService = new BuyListCreator(buyListRepository);
-            //BuyListCreationDTO buyList = new BuyListCreationDTO(
-            //    "Compra de comida",
-            //    "general",
-            //    DateTime.Parse("2022-6-28")
-            //);
-            //buyListCreatorService.Execute(buyList);
+            //Guid productId = new Guid("c06d4691-d218-41b0-806c-9177aa567e9e");
+            //productRemoverService.Execute(productId, buyListId);
         }
     }
 }

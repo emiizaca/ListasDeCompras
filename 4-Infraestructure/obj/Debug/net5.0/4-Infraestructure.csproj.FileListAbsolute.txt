@@ -16,3 +16,21 @@ D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraes
 D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\ref\4-Infraestructure.dll
 D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.pdb
 D:\workspace\dotnet\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\4-Infraestructure.dll.config
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\4-Infraestructure.dll.config
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\4-Infraestructure.deps.json
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\4-Infraestructure.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\4-Infraestructure.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\3-Domain.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\9-Transversal.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\3-Domain.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\bin\Debug\net5.0\9-Transversal.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.csproj.AssemblyReference.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.AssemblyInfoInputs.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.AssemblyInfo.cs
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.csproj.CoreCompileInputs.cache
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.csproj.CopyComplete
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\refint\4-Infraestructure.dll
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\4-Infraestructure.pdb
+E:\Documentos\APU\Ejercicios de programación\C#\ListasDeCompras\4-Infraestructure\obj\Debug\net5.0\ref\4-Infraestructure.dll

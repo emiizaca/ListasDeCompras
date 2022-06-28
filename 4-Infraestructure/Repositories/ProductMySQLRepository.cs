@@ -1,4 +1,4 @@
-﻿using _4_Infraestructure.Repositories;
+﻿using ListasDeCompras.Infraestructure.Repositories;
 using Dapper;
 using ListasDeCompras.Domain.Entities;
 using ListasDeCompras.Domain.Repositories;
@@ -17,7 +17,7 @@ namespace ListasDeCompras.Infraestructure.Repositories
         //MySQLConfiguration mySQLConnectionConfig = new MySQLConfiguration(ConfigurationManager.ConnectionStrings["MySQLConnection"].ConnectionString);
         protected MySqlConnection dbConnection()
         {
-            return new MySqlConnection("server = localhost; port = 3306; database = listas_de_compras; uid = root; password = 87651234");
+            return new MySqlConnection("server = localhost; port = 3306; database = listas_de_compras; uid = root; password = 87654321");
         }
         public void Add(Product product)
         {
@@ -43,8 +43,22 @@ namespace ListasDeCompras.Infraestructure.Repositories
         public Product GetById(Guid id)
         {
             var db = dbConnection();
-            var sql = $"SELECT * FROM product WHERE Id = {id}";
+            var sql = $"SELECT * FROM product WHERE id = {id}";
             return db.QueryFirstOrDefault(sql, new { });
+        }
+
+        public void Update(Product product, Guid id)
+        {
+            var db = dbConnection();
+            var sql = $"UPDATE product SET id= '{product.Id()}', buyListId= '{product.BuyListId()}', name= '{product.Name()}', brand= '{product.Brand()}', quantity= '{product.Quantity()}', category= '{product.Category()}' WHERE Id= {id} AND buyListId= {product.BuyListId()}";
+            db.Execute(sql, new { });
+        }
+
+        public void Delete(Guid id, Guid buyListId)
+        {
+            var db = dbConnection();
+            var sql = $"DELETE FROM product WHERE id= {id} AND buyListId= {buyListId}";
+            db.Execute(sql, new { });
         }
     }
 }

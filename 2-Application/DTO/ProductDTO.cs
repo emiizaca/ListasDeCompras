@@ -14,8 +14,9 @@ namespace ListasDeCompras.Application.DTO
         private int quantity;
         private string category;
 
-        public ProductDTO(string name, string brand, int quantity, string category)
+        public ProductDTO(Guid id, string name, string brand, int quantity, string category)
         {
+            this.buyListId = id;
             this.name = name;
             this.brand = brand;
             this.quantity = quantity;

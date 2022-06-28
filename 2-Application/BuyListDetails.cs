@@ -35,6 +35,7 @@ namespace ListasDeCompras.Application
             {
                 productsDTO.Add(
                     new ProductDTO(
+                        actualProduct.BuyListId(),
                         actualProduct.Name(),
                         actualProduct.Brand(),
                         actualProduct.Quantity(),

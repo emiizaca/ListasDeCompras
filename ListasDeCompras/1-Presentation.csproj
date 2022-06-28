@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Castle.Windsor" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\2-Application\2-Application.csproj" />
     <ProjectReference Include="..\4-Infraestructure\4-Infraestructure.csproj" />
     <ProjectReference Include="..\Domain\3-Domain.csproj" />
